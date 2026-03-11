@@ -1,4 +1,3 @@
-<<<<<                           1
 Private Sub btnIngresar_Click()
 
     Dim filaVacia As Long
