@@ -13,9 +13,23 @@ Private Sub btnIngresar_Click()
 
     filaVacia = i
     hayEspacio = true
+
     Exit For
 
     End If
+    
     Next i
+
+    If hayEspacio = True Then
+
+      Hoja1.Cells(filaVacia, 6).Value = txtCantidad.Text
+      Hoja1.Cells(filaVacia, 7).Value = txtDescripcion.Text
+      Hoja1.Cells(filaVacia, 8).Value = txtVUnitario.Text
+
+    Else
+
+     MsgBox "La Tabla Se Encuentra LLena"
+
+    End If
 
 End Sub
