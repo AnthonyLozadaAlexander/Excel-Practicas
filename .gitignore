@@ -1,0 +1,11 @@
+# Ignorar archivos temporales de Excel
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.xlsb
+
+# Ignorar archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
