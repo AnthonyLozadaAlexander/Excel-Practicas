@@ -23,7 +23,7 @@ Private Sub btnIngresar_Click()
 
       Hoja1.Cells(filaVacia, 6).Value = txtCantidad.Text
       Hoja1.Cells(filaVacia, 7).Value = txtDescripcion.Text
-      Hoja1.Cells(filaVacia, 8).Value = txtValorUnitario.Text
+      Hoja1.Cells(filaVacia, 10).Value = txtVUnitario.Text
 
     Else
 
